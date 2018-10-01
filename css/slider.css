@@ -1,0 +1,100 @@
+@import url('variables.css');
+
+.springtech-slider {
+	display: flex;
+	width: 776px;
+	height: 780px;
+	background-color: var(--white-four);
+	margin: auto;
+}
+
+.group {
+	position: absolute;
+	width: 324px;
+	height: 324px;
+	margin-right: 226px;
+	margin-left: 226px;
+	margin-top: 184px;
+	margin-bottom: 272px;
+	-moz-backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+}
+
+.svg-container {
+	position: relative;
+}
+
+.shape {
+	position: absolute;
+	width: 20px;
+	height: 24px;
+	fill: var(--shape); 
+}
+
+.prev { 
+	margin-top: 334px;
+	margin-bottom: 422px;
+	margin-left: 111px;
+}
+.next { 
+	margin-top: 334px;
+    margin-bottom: 422px;
+    margin-left: 651px;
+    margin-right: 111px;
+}
+
+.up {
+	transform: rotate(-90deg);
+	margin-top: 64px;
+	margin-bottom: 692px;
+	margin-left: 381px;
+	margin-right: 381px;
+}
+
+.down {
+	transform: rotate(-270deg);
+	margin-top: 604px;
+	margin-bottom: 152px;
+	margin-left: 381px;
+	margin-right: 381px;
+}
+
+.show {
+	position: relative;
+	width: 182px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: var(--show);
+	border: solid 1px var(--border);
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.16);
+	margin-top: 684px;
+	margin-bottom: 64px;
+	margin-left: 297px;
+	margin-right: 297px;
+}
+
+.show div {
+	display: inline-block;
+	width: 122px;
+	height: 19px;
+	font-family: HelveticaNeue;
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--white-four);
+	text-align: center;
+	margin-top: 15px;
+}
+
+.heart {
+	width: 30px;
+	height: 15px;
+	stroke: var(--white-four);
+    fill: var(--show);
+}
+.heart:active {
+	width: 30px;
+	height: 15px;
+	stroke: var(--white-four);
+    fill: #730000;
+}
+
