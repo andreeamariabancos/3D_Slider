@@ -16,8 +16,6 @@
 	margin-left: 226px;
 	margin-top: 184px;
 	margin-bottom: 272px;
-	-moz-backface-visibility:hidden;
-	-webkit-backface-visibility:hidden;
 }
 
 .svg-container {
@@ -91,10 +89,18 @@
 	stroke: var(--white-four);
     fill: var(--show);
 }
-.heart:active {
-	width: 30px;
-	height: 15px;
-	stroke: var(--white-four);
-    fill: #730000;
+
+.counter {
+	position: absolute;
+	width: 42px;
+	height: 26px;
+	font-family: Didot;
+	font-size: 21px;
+	font-weight: bold;
+	color: var(--counter);
+	margin-left: 367px;
+	margin-right: 367px;
+	margin-top: 533px;
 }
+
 
