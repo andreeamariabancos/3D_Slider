@@ -87,7 +87,15 @@
 	width: 30px;
 	height: 15px;
 	stroke: var(--white-four);
-    fill: var(--show);
+	fill: var(--show);
+}
+
+.line-animation {
+	margin-left: 34px;
+	width: 122px;
+	height: 17px;
+	stroke:var(--white-four);
+	
 }
 
 .counter {
@@ -102,5 +110,35 @@
 	margin-right: 367px;
 	margin-top: 533px;
 }
+
+.counter2 {
+	position: absolute;
+	width: 42px;
+	height: 26px;
+	font-family: Didot;
+	font-size: 21px;
+	font-weight: bold;
+	color: var(--counter);
+	margin-left: 385px;
+	margin-right: 367px;
+	margin-top: 533px;
+}
+
+.close {
+	position: absolute;
+	margin-top: 142px;
+	margin-right: 199px;
+	margin-left: 560px;
+	margin-bottom: 621px;
+}
+.fas.fa-times {
+	font-size: 1.5em;
+	color: var(--close);
+}
+
+.highlight {
+	background: red;
+}
+
 
 

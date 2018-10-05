@@ -10,6 +10,9 @@
 	/**** Border  ****/
 	--border : #ff96a7;
 
-	/**** Border  ****/
+	/**** Counter  ****/
 	--counter : #4a4a4a;
+
+	/**** Close  ****/
+	--close :#c7cdd7;
 }
