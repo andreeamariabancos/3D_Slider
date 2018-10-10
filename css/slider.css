@@ -90,12 +90,31 @@
 	fill: var(--show);
 }
 
-.line-animation {
-	margin-left: 34px;
-	width: 122px;
-	height: 17px;
-	stroke:var(--white-four);
-	
+@keyframes pulse {
+	0% { transform: scale(1); }
+	50% { transform: scale(1.3); }
+	100% { transform: scale(1); }
+}
+
+.heart-animation {
+	position: absolute;
+    width: 30px;
+    height: 15px;
+    left: 0px;
+    top: 16px;
+}
+
+@keyframes draw {
+  50% {
+    stroke-dashoffset: 0;
+    fill: var(--white-four);
+  }
+  53% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 .counter {
@@ -106,22 +125,16 @@
 	font-size: 21px;
 	font-weight: bold;
 	color: var(--counter);
-	margin-left: 367px;
 	margin-right: 367px;
 	margin-top: 533px;
 }
 
-.counter2 {
-	position: absolute;
-	width: 42px;
-	height: 26px;
-	font-family: Didot;
-	font-size: 21px;
-	font-weight: bold;
-	color: var(--counter);
+.counter-image {
+	margin-left: 367px;
+}
+
+.counter-total {
 	margin-left: 385px;
-	margin-right: 367px;
-	margin-top: 533px;
 }
 
 .close {
@@ -135,10 +148,4 @@
 	font-size: 1.5em;
 	color: var(--close);
 }
-
-.highlight {
-	background: red;
-}
-
-
 
